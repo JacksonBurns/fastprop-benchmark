@@ -1,0 +1,7 @@
+name: fastprop_env
+# fastprop is only available on pip
+dependencies:
+  - python==3.11.*
+  - pip
+  - pip:
+    - fastprop==1.0.6

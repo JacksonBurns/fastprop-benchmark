@@ -21,3 +21,6 @@
 |     SIDER     | ROC-AUC |          |                 |          |
 |    ClinTox    | ROC-AUC |          |                 |          |
 |     ChEMBL    | ROC-AUC |          |                 |          |
+
+# Installation
+Conda environment files for the three packages are provided - use `conda env create -f <name>.yml` to create an appropriate environment.
