@@ -1,3 +1,20 @@
+# don't version control the data files
+*.csv
+*.gz
+# modeling outputs
+output*
+# transformer-cnn source
+transformer-cnn-7009a997e9fe626913e7e28030d3e92e0eeba818*
+# transformer-cnn training
+benchmarks/*/transformercnn/*.cfg
+benchmarks/*/transformercnn/*.tar
+benchmarks/*/transformercnn/*.npy
+benchmarks/*/transformercnn/*.pkl
+benchmarks/*/transformercnn/*.h5
+benchmarks/*/transformercnn/model
+
+# typical python .gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

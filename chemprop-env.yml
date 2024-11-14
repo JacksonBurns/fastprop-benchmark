@@ -2,4 +2,4 @@ name: chemprop_env
 dependencies:
   - python==3.8.*
   - chemprop==1.7.1
-  - pytorch::pytorch<2.0
+  - pytorch::pytorch-cuda  # <-- uncomment this if you have a GPU

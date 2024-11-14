@@ -8,6 +8,11 @@ name: transformer_cnn_env
 # are incompatible given what packages are available on conda
 dependencies:
   - python==3.6.*
-  - tensorflow==1.10*
-  - rdkit==2018.03.3
+  - rdkit==2021.03.5
   - molvs==0.1.1
+# not mentioned in the README, but required
+  - h5py==2.10.0  # bugs in other versions...
+# requested tensorflow version is not on conda
+  - pip
+  - pip:
+    - tensorflow==1.12.*

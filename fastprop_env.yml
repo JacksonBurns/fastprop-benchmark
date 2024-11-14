@@ -5,3 +5,4 @@ dependencies:
   - pip
   - pip:
     - fastprop==1.0.6
+    - matplotlib
