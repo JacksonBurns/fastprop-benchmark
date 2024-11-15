@@ -6,7 +6,7 @@ All reported results are an average across five randomly selected train/val/test
 
 |    Dataset    | Entries |  Metric | Chemprop | transformer-cnn | fastprop |
 |:-------------:|:-------:|:-------:|:--------:|:---------------:|:--------:|
-|      HIV      |41,127| ROC-AUC |          |                 |          |
+|      HIV      |41,127| ROC-AUC |0.8275+/-0.0150|0.5604+/-0.1301|0.7844+/-0.01989|
 |      QM8      |21,786|   MAE   |          |                 |          |
 |    ToxCast    |8,597| ROC-AUC |          |                 |          |
 |     Tox21     |7,831| ROC-AUC |          |                 |          |
