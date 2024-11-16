@@ -2,12 +2,12 @@
 Benchmarking [`fastprop`](https://github.com/JacksonBurns/fastprop), [Chemprop](https://github.com/chemprop/chemprop), and [Transformer-CNN](https://github.com/bigchem/transformer-cnn) on various open datasets.
 
 Summary table follows - see below for instructions about reproducing these results.
-All reported results are an average across five randomly selected train/val/test splits of 0.70/0.10/0.20.
+All reported results are an average across five randomly selected train/val/test splits of 0.70/0.10/0.20, for MAE and RMSE lower is better and for ROC-AUC higher is better.
 
 |    Dataset    | Entries |  Metric | Chemprop | transformer-cnn | fastprop |
 |:-------------:|:-------:|:-------:|:--------:|:---------------:|:--------:|
 |      HIV      |41,127| ROC-AUC |0.8275+/-0.0150|0.5604+/-0.1301|0.7844+/-0.01989|
-|      QM8      |21,786|   MAE   |          |                 |          |
+|      QM8      |21,786|   MAE   |0.0056+/-0.0001|0.0136+/-0.0004|0.0164+/-0.0002|
 |    ToxCast    |8,597| ROC-AUC |          |                 |          |
 |     Tox21     |7,831| ROC-AUC |          |                 |          |
 |      QM7      |6,834|   MAE   |          |                 |          |
