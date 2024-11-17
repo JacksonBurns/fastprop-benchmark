@@ -1,5 +1,5 @@
 chemprop_train \
---data_path ../lipo.csv \
+--data_path ../tox24.csv \
 --smiles_columns smiles \
 --target_columns target \
 --dataset_type regression \
@@ -10,7 +10,7 @@ chemprop_train \
 --seed 0
 
 chemprop_train \
---data_path ../lipo.csv \
+--data_path ../tox24.csv \
 --smiles_columns smiles \
 --target_columns target \
 --dataset_type regression \
@@ -21,7 +21,7 @@ chemprop_train \
 --seed 1
 
 chemprop_train \
---data_path ../lipo.csv \
+--data_path ../tox24.csv \
 --smiles_columns smiles \
 --target_columns target \
 --dataset_type regression \
@@ -32,7 +32,7 @@ chemprop_train \
 --seed 2
 
 chemprop_train \
---data_path ../lipo.csv \
+--data_path ../tox24.csv \
 --smiles_columns smiles \
 --target_columns target \
 --dataset_type regression \
@@ -43,7 +43,7 @@ chemprop_train \
 --seed 3
 
 chemprop_train \
---data_path ../lipo.csv \
+--data_path ../tox24.csv \
 --smiles_columns smiles \
 --target_columns target \
 --dataset_type regression \

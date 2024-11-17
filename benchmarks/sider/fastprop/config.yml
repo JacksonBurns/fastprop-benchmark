@@ -1,0 +1,17 @@
+# generic args
+output_directory: output
+random_seed: 0
+problem_type: multilabel
+
+# featurization
+input_file: ../sider_clean.csv
+target_columns: target_0 target_1 target_2 target_3 target_4 target_5 target_6 target_7 target_8 target_9 target_10 target_11 target_12 target_13 target_14 target_15 target_16 target_17 target_18 target_19 target_20 target_21 target_22 target_23 target_24 target_25 target_26
+smiles_column: smiles
+descriptor_set: all
+
+# training
+number_repeats: 5
+train_size: 0.7
+val_size: 0.1
+test_size: 0.2
+sampler: random

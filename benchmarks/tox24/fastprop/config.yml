@@ -1,10 +1,10 @@
 # generic args
 output_directory: output
 random_seed: 0
-problem_type: binary
+problem_type: regression
 
 # featurization
-input_file: ../bbbp.csv
+input_file: ../tox24.csv
 target_columns: target
 smiles_column: smiles
 descriptor_set: all

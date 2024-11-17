@@ -1,6 +1,8 @@
 # don't version control the data files
 *.csv
 *.gz
+# except for the results csv
+!benchmarks/results.csv
 # modeling outputs
 output*
 # transformer-cnn source
